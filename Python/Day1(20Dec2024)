@@ -1,1 +1,5 @@
-
+# sum of two numbers by taking their input
+a = int(input(""))
+b = int(input(""))
+sum = a + b
+print(sum)
