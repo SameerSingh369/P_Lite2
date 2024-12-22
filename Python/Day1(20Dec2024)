@@ -3,3 +3,8 @@ a = int(input(""))
 b = int(input(""))
 sum = a + b
 print(sum)
+
+# input side of a square and prints its area
+a = int(input(""))
+area = a * a
+print(area)
