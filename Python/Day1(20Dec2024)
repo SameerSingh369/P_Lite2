@@ -8,3 +8,9 @@ print(sum)
 a = int(input(""))
 area = a * a
 print(area)
+
+# input two floating number and print their average
+a = float(input(""))
+b = float(input(""))
+average = (a + b) / 2
+print(average)
