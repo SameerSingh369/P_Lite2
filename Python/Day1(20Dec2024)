@@ -14,3 +14,8 @@ a = float(input(""))
 b = float(input(""))
 average = (a + b) / 2
 print(average)
+
+# input two int numbers a and b and print true if a is grater than or equal to b otherwise print false
+a = int(input(""))
+b = int(input(""))
+print (a >= b)
