@@ -4,3 +4,19 @@ b = input("Enter your second favourite movie: ")
 c = input("Enter your third favourite movie: ")
 movies = [a, b, c]
 print(movies)
+
+# check if a list contains a palindrime number
+li1 = []
+li2 = []
+c_li1 = li1
+c_li1.reverse
+c_li2 = li2
+c_li2.reverse
+if (li1 == c_li1):
+    print("li1 is a palindrome")
+else:
+    print("li1 is not a palindrome")
+if (li2 == c_li2):
+    print("li2 is a palindrome")
+else:
+    print("li2 is not a palindrome")
