@@ -1,0 +1,6 @@
+# ask the user to enter names of their 3 favourite movies and store them in a list
+a = input("Enter your first favourite movie: ")
+b = input("Enter your second favourite movie: ")
+c = input("Enter your third favourite movie: ")
+movies = [a, b, c]
+print(movies)
