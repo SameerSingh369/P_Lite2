@@ -1,1 +1,17 @@
+# Two ways of merging two or more dictionaries
+D1 = {
+    "nameA" : "A",
+    "nameB" : "B",
+    "nameC" : "C"
+}
 
+D2 = {
+    "ageA" : 21,
+    "ageB" : 22,
+    "ageC" : 23
+}
+
+D1.update(D2)
+D3 = {**D1, **D2}
+print(D1)
+print(D3)
