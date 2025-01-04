@@ -15,3 +15,9 @@ D1.update(D2)
 D3 = {**D1, **D2}
 print(D1)
 print(D3)
+
+# store the following word meanings in dictionary
+# 1. table: a piece of furniture, lists of facts and figures
+# 2. cat: a small animal
+dict = {"table": ["a piece of furniture", "lists of facts and figures"], "cat": "a small animal"}
+print(dict)
