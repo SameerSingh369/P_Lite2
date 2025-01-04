@@ -35,3 +35,7 @@ d1.update({"s2": s2})
 s3 = int(input(""))
 d1.update({"s3": s3})
 print(d1)
+
+# figure out a way to store 9 and 9.0 as seprate values in the set.
+value = { 9, "9.0"}
+print(value)
