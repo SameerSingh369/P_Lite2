@@ -25,3 +25,13 @@ print(dict)
 # you are give a list of subjects for students. Assume one classroom is required for 1 subject. How many classroom are needed by all students. Subjects are: python, java, c++, python, javascript, java, python, java, c++, c
 l1 = {"python", "java", "C++", "python", "javascript", "java", "python", "java", "C++", "C"}
 print(len(l1))
+
+# write a program to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary and add one by one . Use subjects name as key and marks as value
+d1 = {}
+s1 = int(input(""))
+d1.update({"s1": s1})
+s2 = int(input(""))
+d1.update({"s2": s2})
+s3 = int(input(""))
+d1.update({"s3": s3})
+print(d1)
