@@ -31,3 +31,8 @@ while i <= 100:
 #     if(n[i]==x):
 #         print(n[i], i)
 #     i+=1
+
+# print the elements of the following list using for loop: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# for el in list:
+#     print(el)
