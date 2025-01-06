@@ -36,3 +36,9 @@ while i <= 100:
 # list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 # for el in list:
 #     print(el)
+
+# Search for a number x in tuple using for loop
+# tuple = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# for el in tuple:
+#     if el == 16:
+#         print(el)
